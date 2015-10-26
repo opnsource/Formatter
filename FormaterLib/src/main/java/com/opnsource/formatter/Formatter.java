@@ -1,4 +1,4 @@
-package com.opnsource.formater;
+package com.opnsource.formatter;
 
 import java.util.HashMap;
 import java.util.Locale;

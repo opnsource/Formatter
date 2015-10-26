@@ -1,11 +1,10 @@
-package com.opnsource.formater;
+package com.opnsource.formatter;
 
 import java.util.Formatter;
 import java.util.Locale;
 
 /**
  * Created by liushu on 2015/10/22.
- * 字符串format
  */
 
 class CharacterFormatterManager extends AbstractFormatterManager<Formatter> {

@@ -1,4 +1,4 @@
-package com.opnsource.formater;
+package com.opnsource.formatter;
 
 /**
  * Created by liushu on 2015/10/22.
@@ -6,22 +6,22 @@ package com.opnsource.formater;
 class FormatterInfo {
 
     /**
-     * formater主体
+     * formater value
      */
     public Object mValue;
 
     /**
-     * formater 样式
+     * formater style
      */
     public String mPattern;
 
     /**
-     * 是否对该Pattern进行cache ,默认为true
+     * Need to cache,true is Need
      */
     public boolean mCache = true;
 
     /**
-     * 用于formater 字符串
+     * Parameters to format strings
      */
     public Object[] mData;
 }
